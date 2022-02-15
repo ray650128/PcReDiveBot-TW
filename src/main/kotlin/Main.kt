@@ -110,7 +110,7 @@ private fun transformTime(originalTime: Int): String {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val configUtil = ConfigUtil()
     if (!configUtil.init()) {
         exitProcess(0)

@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbc4cafb-3bed-4c9d-b4ab-51b8cf9e0619" name="Changes" comment="加入Gson套件">
-      <change afterPath="$PROJECT_DIR$/config.example.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ConfigUtil.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/model/Configure.kt" afterDir="false" />
+    <list default="true" id="dbc4cafb-3bed-4c9d-b4ab-51b8cf9e0619" name="Changes" comment="實作補償刀時間計算">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Users/ray65/IdeaProjects/PcReDiveBot-TW"
+    "last_opened_file_path": "D:/Users/ray65/IdeaProjects/PcReDiveBot-TW",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -77,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644895753050</updated>
-      <workItem from="1644895754232" duration="3238000" />
+      <workItem from="1644895754232" duration="5183000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1644896129557</created>
@@ -100,7 +100,28 @@
       <option name="project" value="LOCAL" />
       <updated>1644896633556</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="加入ConfigUtil，並初步啟動jda">
+      <created>1644899234465</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644899234465</updated>
+    </task>
+    <task id="LOCAL-00005" summary="實作指令解析部分">
+      <created>1644901421924</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644901421924</updated>
+    </task>
+    <task id="LOCAL-00006" summary="實作補償刀時間計算">
+      <created>1644913231629</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644913231629</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +142,9 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="加入JDA套件" />
     <MESSAGE value="加入Gson套件" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入Gson套件" />
+    <MESSAGE value="加入ConfigUtil，並初步啟動jda" />
+    <MESSAGE value="實作指令解析部分" />
+    <MESSAGE value="實作補償刀時間計算" />
+    <option name="LAST_COMMIT_MESSAGE" value="實作補償刀時間計算" />
   </component>
 </project>
