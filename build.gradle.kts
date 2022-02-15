@@ -16,6 +16,7 @@ dependencies {
     implementation("net.dv8tion:JDA:5.0.0-alpha.5") {
         exclude("opus-java")
     }
+    implementation("com.google.code.gson:gson:2.9.0")
     testImplementation(kotlin("test"))
 }
 
