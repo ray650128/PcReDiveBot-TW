@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbc4cafb-3bed-4c9d-b4ab-51b8cf9e0619" name="Changes" comment="實作補償刀時間計算">
+    <list default="true" id="dbc4cafb-3bed-4c9d-b4ab-51b8cf9e0619" name="Changes" comment="加上 shadowJar plugin">
       <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644895753050</updated>
-      <workItem from="1644895754232" duration="5183000" />
+      <workItem from="1644895754232" duration="5492000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1644896129557</created>
@@ -121,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644913231629</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="加上 shadowJar plugin">
+      <created>1644915497732</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1644915497732</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +150,7 @@
     <MESSAGE value="加入ConfigUtil，並初步啟動jda" />
     <MESSAGE value="實作指令解析部分" />
     <MESSAGE value="實作補償刀時間計算" />
-    <option name="LAST_COMMIT_MESSAGE" value="實作補償刀時間計算" />
+    <MESSAGE value="加上 shadowJar plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="加上 shadowJar plugin" />
   </component>
 </project>
