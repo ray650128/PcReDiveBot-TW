@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbc4cafb-3bed-4c9d-b4ab-51b8cf9e0619" name="Changes" comment="加上 README.md">
+    <list default="true" id="dbc4cafb-3bed-4c9d-b4ab-51b8cf9e0619" name="Changes" comment="更新JDA，並補上logback套件">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/MyListenerAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/commands/BotCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/commands/CompensateCalc.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/commands/Help.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ConfigUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/utils/ConfigUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin Data Class" />
+        <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -38,20 +45,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Users/ray65/IdeaProjects/PcReDiveBot-TW",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/ray65/IdeaProjects/PcReDiveBot-TW&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Users\ray65\IdeaProjects\PcReDiveBot-TW" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="utils" />
     </key>
   </component>
   <component name="RunManager">
@@ -76,7 +86,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644895753050</updated>
-      <workItem from="1644895754232" duration="6993000" />
+      <workItem from="1644895754232" duration="7415000" />
+      <workItem from="1665828810492" duration="1689000" />
+      <workItem from="1665830808297" duration="912000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1644896129557</created>
@@ -134,7 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644980616144</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="調整說明文件">
+      <created>1665812084353</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665812084353</updated>
+    </task>
+    <task id="LOCAL-00010" summary="更新JDA，並補上logback套件">
+      <created>1665831224350</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665831224350</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +186,8 @@
     <MESSAGE value="實作補償刀時間計算" />
     <MESSAGE value="加上 shadowJar plugin" />
     <MESSAGE value="加上 README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="加上 README.md" />
+    <MESSAGE value="調整說明文件" />
+    <MESSAGE value="更新JDA，並補上logback套件" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新JDA，並補上logback套件" />
   </component>
 </project>

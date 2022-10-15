@@ -1,3 +1,5 @@
+package utils
+
 import com.google.gson.Gson
 import model.Configure
 import java.io.File
