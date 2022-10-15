@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbc4cafb-3bed-4c9d-b4ab-51b8cf9e0619" name="Changes" comment="更新JDA，並補上logback套件">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/MyListenerAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/commands/BotCommand.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/commands/CompensateCalc.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/commands/Help.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ConfigUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/utils/ConfigUtil.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+    <list default="true" id="dbc4cafb-3bed-4c9d-b4ab-51b8cf9e0619" name="Changes" comment="整理專案架構，將Bot指令封裝成易於擴充的方式">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +56,9 @@
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="utils" />
     </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="commands" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
@@ -88,7 +84,7 @@
       <updated>1644895753050</updated>
       <workItem from="1644895754232" duration="7415000" />
       <workItem from="1665828810492" duration="1689000" />
-      <workItem from="1665830808297" duration="912000" />
+      <workItem from="1665830808297" duration="1822000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1644896129557</created>
@@ -160,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665831224350</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="整理專案架構，將Bot指令封裝成易於擴充的方式">
+      <created>1665831807166</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665831807166</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +191,7 @@
     <MESSAGE value="加上 README.md" />
     <MESSAGE value="調整說明文件" />
     <MESSAGE value="更新JDA，並補上logback套件" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新JDA，並補上logback套件" />
+    <MESSAGE value="整理專案架構，將Bot指令封裝成易於擴充的方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="整理專案架構，將Bot指令封裝成易於擴充的方式" />
   </component>
 </project>

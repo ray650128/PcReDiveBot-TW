@@ -6,8 +6,6 @@
 
 ---
 
-
-
 ### 安裝方式
 
 **注意：請具備一定能力再使用 請具備一定能力再使用 請具備一定能力再使用**
@@ -23,3 +21,12 @@
 6. gradlew.bat clean
 7. gradlew.bat shadowJar
 8. 透過 java -jar ./build/libs/Bot-1.0-all.jar 指令執行本機器人
+
+
+---
+
+### 2022/10/15更新架構
+
+將機器人指令封裝成BotCommand類別，以便於擴充
+
+只須建立一個類別，並繼承自 BotComman 類別，並將自訂指令加入到 MyListenerAdapter 中的 commandList 陣列即可。
