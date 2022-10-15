@@ -2,9 +2,7 @@
 
 ## 超異域公主連結 Re: Dive 戰隊戰補償刀轉換 Discord 機器人
 
-#### 本機器人參考 [終將成為妳](https://www.youtube.com/channel/UCvN59KwVSCv0KaAUuAYyUew/videos) 開發的 [補償刀文字軸秒數轉換機器人](https://github.com/YungPingXu/pcr-bot)。
-
-#### 本 Discord 機器人採用 Kotlin+JDA 撰寫。
+#### 本機器人參考 [終將成為妳](https://www.youtube.com/channel/UCvN59KwVSCv0KaAUuAYyUew/videos) 開發的 [補償刀文字軸秒數轉換機器人](https://github.com/YungPingXu/pcr-bot)，並基於 Kotlin+JDA 撰寫。
 
 ---
 
