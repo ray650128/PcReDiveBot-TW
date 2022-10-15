@@ -14,7 +14,8 @@ repositories {
 }
 
 dependencies {
-    implementation("net.dv8tion:JDA:5.0.0-alpha.5") {
+    implementation("ch.qos.logback:logback-classic:1.4.3")
+    implementation("net.dv8tion:JDA:5.0.0-alpha.21") {
         exclude("opus-java")
     }
     implementation("com.google.code.gson:gson:2.9.0")
